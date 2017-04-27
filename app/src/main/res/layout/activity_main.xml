@@ -88,7 +88,7 @@
                     android:layout_centerInParent="true"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:text="@string/or" />
+                    android:text="@string/login_divider_or" />
 
                 <View
                     android:layout_width="match_parent"
