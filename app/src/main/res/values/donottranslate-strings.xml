@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_cert_key">70c26R144$2£</string>
+    <string name="pinning_cert_key">70c26R144</string>
+    <string name="mcare_base_url">https://mcare.vodafone.ie:9443</string>
+    <string name="main_base_url">http://www.vodafone.ie</string>
+</resources>

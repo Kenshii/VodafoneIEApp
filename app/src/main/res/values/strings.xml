@@ -1,10 +1,45 @@
 <resources>
-    <string name="app_name">Vodafone IE App</string>
+    <string name="app_name">Mobile IRL</string>
+
+    <!-- Login/register strings -->
     <string name="login_activity_name">My Vodafone Login</string>
     <string name="mobile_number">Mobile Number</string>
     <string name="password">Password</string>
     <string name="keep_me_logged_in">Keep me logged in</string>
     <string name="log_in">Log In</string>
     <string name="login_divider_or">or</string>
-    <string name="attempt_auto_login">Attempt Auto-Login</string>
+    <string name="register">Register</string>
+
+    <!-- Error messages -->
+    <string name="user_blocked">Your account has been blocked. Please contact customer care.</string>
+    <string name="iccs_not_available">Due to essential system maintenance, this service is currently unavailable.\n\nPlease try again soon.</string>
+    <string name="user_wrong_password">Please check your login details and try again.\n\nIf you enter your details incorrectly %d more times your account will be locked for 24 hours.</string>
+    <string name="unknown_error">An unknown error has occurred.\n\nIt is possible that we the servers are currently undergoing maintenance.\n\nPlease try again later.</string>
+    <string name="user_session_expired">We can\'t get your details right now. We are most likely updating our databases.\n\nPlease try again later.</string>
+    <string name="enter_self_service_pin">You need to enter your self-service pin</string>
+    <string name="out_of_service">Due to essential system maintenance, this service is currently unavailable.\n\nPlease try again soon.</string>
+    <string name="user_temporarily_locked">Your account has been locked for 24 hours due to 5 incorrect logins.\n\nTo unlock your account click below to update your password or try again tomorrow.</string>
+    <string name="user_permanently_locked">Your account is locked.\n\nYou can not use services at the moment. Customer care can help to unlock your account.</string>
+    <string name="user_not_registered">Your number is not registered yet.\n\nWould you like to register?</string>
+    <string name="user_not_logged_in">Your session appears to have expired.\n\nPlease log in again.</string>
+    <string name="missing_login_details">Please ensure you have supplied both your mobile number and password.</string>
+    <string name="web_text_quota_exceeded">You have exceeded the number of web texts you can send this month.\n\nPlease try again later.</string>
+    <string name="ldap_error">An LDAP error has occurred.</string> <!-- What is an LDAP error? !-->
+    <string name="cant_buy_addon_no_credit">You lack the credit required to buy this addon.</string>
+    <string name="cant_buy_addon_closed">You can\'t buy this addon as it is closed.</string> <!-- Need to clarify this. !-->
+    <string name="cant_buy_addon_expired">You can\'t buy this addon as it has expired.</string> <!-- Ditto. !-->
+    <string name="cant_buy_addon_not_eligible">You are not eligible to buy this addon.</string>
+    <string name="usage_details_connection_failed">Failed to obtain your usage details.\n\nPlease try again later.</string>
+    <string name="not_connected_to_inernet">You\'re not connected to internet.</string>
+    <string name="request_timed_out">Request timed out. Please try again.\n\nThe servers could be undergoing maintenance.</string>
+    <string name="failed_to_get_auto_login_token">Failed to obtain your auto login token.\n\nPlease login manually.</string>
+
+    <!-- Menu options -->
+    <string name="sign_up">Sign Up</string>
+    <string name="help">Help</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="not_allowed_view_balance">This account is not allowed to access its balance.</string>
+    <string name="logout_successful">Logged out successfully.</string>
+    <string name="failed_to_log_in">Failed to log in.</string>
+    <string name="failed_to_log_out">Failed to log out.</string>
 </resources>
